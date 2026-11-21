@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Prepare smarter for TNPSC, SSC, Railway and Banking exams with mock tests, study materials and daily quizzes.">
+  <meta name="theme-color" content="#f6f9ff">
+  <title>TNPSC_TAMILQUIZ | Your Government Job Journey Starts Here</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <script src="js/data.js" defer></script>
+  <script src="js/navigation.js" defer></script>
+  <script src="js/search.js" defer></script>
+  <script src="js/quiz.js" defer></script>
+  <script src="js/mocktest.js" defer></script>
+  <script src="js/materials.js" defer></script>
+  <script src="js/dashboard.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#home" aria-label="TNPSC_TAMILQUIZ home"><span class="brand-mark">T</span><span>TNPSC_TAMILQUIZ</span></a>
+      <button class="icon-button menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <div class="nav-menu">
+          <button class="nav-trigger" aria-expanded="false">Exams <span class="chevron">⌄</span></button>
+          <div class="mega-menu">
+            <div class="mega-heading"><span class="eyebrow">FIND YOUR PATH</span><strong>Choose your examination</strong><small>Focused preparation for your next big step.</small></div>
+            <div class="mega-links" id="mega-exams"></div>
+          </div>
+        </div>
+        <a href="#mock-tests">Mock tests</a>
+        <a href="#materials">Study materials</a>
+        <a href="#current-affairs">Current affairs</a>
+        <a href="#daily-quiz">Daily quiz</a>
+        <a href="#jobs">Latest jobs</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="text-button language-toggle" aria-label="Switch language">தமிழ்</button>
+        <button class="icon-button theme-toggle" aria-label="Switch to dark mode" title="Toggle dark mode"><span class="theme-icon">◐</span></button>
+        <button class="button button-small button-outline login-button">Log in</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <div class="announcement"><span class="live-dot"></span> YOUR NEXT CHAPTER STARTS NOW <span class="announcement-arrow">↗</span></div>
+        <h1>Your government job journey <span>starts here.</span></h1>
+        <p class="hero-intro">Learn smarter. Practice better. Achieve your dream government job.</p>
+        <form class="hero-search" id="global-search" role="search">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <label class="visually-hidden" for="search-input">Search exams, tests and materials</label>
+          <input id="search-input" type="search" placeholder="Search exams, tests, subjects..." autocomplete="off">
+          <button type="submit" class="button button-primary">Search <span>→</span></button>
+          <div class="search-results" id="search-results" aria-live="polite"></div>
+        </form>
+        <div class="hero-ctas"><a class="button button-dark" href="#exams">Explore exams <span>↗</span></a><button class="button button-soft" data-action="start-mock">Start a free mock test <span>→</span></button></div>
+        <div class="hero-proof"><div class="avatar-stack" aria-hidden="true"><span>AS</span><span>MK</span><span>RV</span><span>+</span></div><p><strong>Join 2.4 lakh+</strong><br>focused learners</p><div class="proof-divider"></div><p class="rating"><strong>4.8 <span>★</span></strong><br>learner rating</p></div>
+      </div>
+      <div class="hero-art" aria-label="A student preparing for an examination">
+        <div class="art-halo"></div>
+        <div class="hero-photo"><img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1000&q=85" alt="Student writing notes at a desk" fetchpriority="high"></div>
+        <div class="photo-tag"><span class="tag-icon">✦</span><span><b>One day at a time</b><small>Your goal is closer than it feels.</small></span></div>
+        <div class="floating-score"><span class="score-ring">92<small>%</small></span><span><b>Accuracy up</b><small>Keep your streak going</small></span><span class="score-trend">↗</span></div>
+        <div class="art-label">PREPARE WITH PURPOSE <span>✳</span></div>
+      </div>
+      <div class="hero-bottomline"><span>BUILT FOR THE EXAM YOU'RE AIMING FOR</span><div class="hero-exam-list"><span>TNPSC</span><i></i><span>SSC</span><i></i><span>RAILWAY</span><i></i><span>BANKING</span></div></div>
+    </section>
+
+    <section class="stats-strip" aria-label="Platform statistics"><div class="stats-inner"><div><strong data-count="240000">0</strong><span>learners and counting</span></div><div><strong data-count="12000">0</strong><span>practice questions</span></div><div><strong data-count="850">0</strong><span>mock tests available</span></div><div><strong data-count="92">0</strong><span>learner satisfaction</span></div></div></section>
+
+    <section class="section section-shell" id="exams">
+      <div class="section-heading reveal"><div><span class="eyebrow">YOUR NEXT MILESTONE</span><h2>Choose your <em>exam track.</em></h2></div><a class="arrow-link" href="pages/tnpsc.html">Explore all exams <span>↗</span></a></div>
+      <div class="exam-grid" id="exam-grid"></div>
+    </section>
+
+    <section class="section section-tint" id="mock-tests"><div class="section-shell">
+      <div class="section-heading reveal"><div><span class="eyebrow">PRACTICE WITH PURPOSE</span><h2>Mocks that move you <em>forward.</em></h2></div><a class="arrow-link" href="pages/mock-tests.html">View test library <span>↗</span></a></div>
+      <div class="filter-row" role="group" aria-label="Filter mock tests"><button class="filter-chip is-active" data-test-filter="all">All tests</button><button class="filter-chip" data-test-filter="Free">Free</button><button class="filter-chip" data-test-filter="Full length">Full length</button><button class="filter-chip" data-test-filter="Subject-wise">Subject-wise</button><button class="filter-chip" data-test-filter="Topic-wise">Topic-wise</button><button class="filter-chip" data-test-filter="Previous year">Previous year</button><button class="filter-chip" data-test-filter="recent">Recently added</button></div>
+      <div class="test-grid" id="test-grid"></div>
+    </div></section>
+
+    <section class="section section-shell" id="materials"><div class="section-heading reveal"><div><span class="eyebrow">A LITTLE KNOWLEDGE, EVERY DAY</span><h2>Your library, <em>always open.</em></h2></div><a class="arrow-link" href="pages/study-materials.html">Browse materials <span>↗</span></a></div>
+      <div class="material-tools"><label class="material-search"><span>⌕</span><input id="material-search" type="search" placeholder="Find a subject or topic" aria-label="Search study materials"></label><select id="material-subject" aria-label="Filter by subject"><option value="all">All subjects</option></select><select id="material-exam" aria-label="Filter by exam"><option value="all">All exams</option><option>TNPSC</option><option>SSC</option><option>Railway</option><option>Banking</option></select></div>
+      <div class="material-grid" id="material-grid"></div>
+    </section>
+
+    <section class="section current-section" id="current-affairs"><div class="section-shell"><div class="section-heading reveal"><div><span class="eyebrow">STAY IN THE KNOW</span><h2>Today, in <em>context.</em></h2></div><a class="arrow-link" href="pages/current-affairs.html">All current affairs <span>↗</span></a></div>
+      <div class="affairs-layout"><article class="affairs-feature"><div class="feature-image"><div class="feature-orbit orbit-one"></div><div class="feature-orbit orbit-two"></div><span class="feature-monogram">TODAY<br><b>MATTERS</b></span><span class="feature-date">31 OCT · DAILY BRIEF</span></div><div class="feature-copy"><span class="category-label">TAMIL NADU AFFAIRS</span><h3>Build the habit of connecting the headlines to the syllabus.</h3><p>Short, exam-aware explainers turn the news cycle into a useful part of your preparation.</p><a class="arrow-link" href="pages/current-affairs.html">Read today's brief <span>↗</span></a></div></article><div class="affairs-list" id="affairs-list"></div></div>
+    </div></section>
+
+    <section class="section section-shell quiz-section" id="daily-quiz"><div class="quiz-panel reveal"><div class="quiz-copy"><span class="eyebrow">A TEN-MINUTE WIN</span><h2>Today's quiz.<br><em>One step sharper.</em></h2><p>Ten fresh questions. Instant explanations. A small daily habit that adds up.</p><div class="quiz-meta"><span>◷ &nbsp;10 questions</span><span>✦ &nbsp;All exam tracks</span></div><button class="button button-light" data-action="start-quiz">Take today's challenge <span>→</span></button></div><div class="quiz-visual"><div class="quiz-stamp">DAILY<br><b>10</b><br>CHALLENGE</div><div class="quiz-visual-note">Your streak is<br><strong id="quiz-streak">0 days</strong><span>Keep it alive ↗</span></div><div class="quiz-asterisk">✳</div></div></div></section>
+
+    <section class="section section-tint" id="pyq"><div class="section-shell"><div class="section-heading reveal"><div><span class="eyebrow">LEARN FROM WHAT CAME BEFORE</span><h2>Past papers. <em>Clearer patterns.</em></h2></div><a class="arrow-link" href="pages/previous-papers.html">Explore question bank <span>↗</span></a></div><div class="pyq-toolbar"><span>Curated previous-year questions</span><div class="filter-row"><select id="pyq-exam" aria-label="Filter questions by exam"><option value="all">All exams</option></select><select id="pyq-subject" aria-label="Filter questions by subject"><option value="all">All subjects</option></select><select id="pyq-difficulty" aria-label="Filter questions by difficulty"><option value="all">Any difficulty</option><option>Easy</option><option>Medium</option><option>Hard</option></select></div></div><div class="pyq-list" id="pyq-list"></div></div></section>
+
+    <section class="section section-shell" id="jobs"><div class="section-heading reveal"><div><span class="eyebrow">YOUR NEXT OPPORTUNITY</span><h2>Keep an eye on <em>what's next.</em></h2></div><a class="arrow-link" href="pages/latest-jobs.html">All job updates <span>↗</span></a></div><div class="notice-banner"><span class="notice-mark">i</span><p>Sample listings for demonstration only. Verify every detail on the official recruiting website.</p></div><div class="filter-row job-filters"><button class="filter-chip is-active" data-job-filter="all">All updates</button><button class="filter-chip" data-job-filter="TNPSC">TNPSC</button><button class="filter-chip" data-job-filter="SSC">SSC</button><button class="filter-chip" data-job-filter="Railway">Railway</button><button class="filter-chip" data-job-filter="Banking">Banking</button></div><div class="jobs-grid" id="jobs-grid"></div></section>
+
+    <section class="section section-dark" id="videos"><div class="section-shell"><div class="section-heading reveal"><div><span class="eyebrow">LEARN FROM THE PEOPLE WHO TEACH</span><h2>Good lessons, <em>right on time.</em></h2></div><a class="arrow-link arrow-light" href="#videos">Browse classes <span>↗</span></a></div><div class="video-grid" id="video-grid"></div></div></section>
+
+    <section class="section section-shell" id="dashboard"><div class="section-heading reveal"><div><span class="eyebrow">YOUR WORK, MADE VISIBLE</span><h2>Progress worth <em>showing up for.</em></h2></div><a class="arrow-link" href="pages/dashboard.html">Open dashboard <span>↗</span></a></div><div class="dashboard-preview"><aside class="dash-sidebar"><span class="dash-avatar">A</span><b>Good morning, Arun</b><small>Your next chapter is taking shape.</small><div class="dash-nav-active">◧ &nbsp; Overview</div><div>◷ &nbsp; Test history</div><div>♡ &nbsp; Bookmarks</div><div>▤ &nbsp; Study plan</div></aside><div class="dash-main"><div class="dash-top"><div><small>YOUR TARGET EXAM</small><h3>TNPSC Group II <span>↗</span></h3></div><span class="target-date">TARGET · 18 MAY 2027</span></div><div class="metric-grid"><div><small>Tests attempted</small><strong id="dash-tests">12</strong><span>↑ 3 this week</span></div><div><small>Average accuracy</small><strong id="dash-accuracy">78%</strong><span>↑ 4% this month</span></div><div><small>Study streak</small><strong id="dash-streak">6 days</strong><span>Personal best: 12</span></div></div><div class="progress-block"><div><span>Weekly study goal</span><strong>7.5 <small>/ 10 hours</small></strong></div><div class="progress-track"><span style="width:75%"></span></div><div class="subject-tags"><span>Strong: Polity</span><span>Focus next: Geography</span></div></div></div><div class="dash-chart"><span class="chart-label">WEEKLY ACCURACY</span><div class="chart-bars"><i style="height:42%"><b>M</b></i><i style="height:58%"><b>T</b></i><i style="height:52%"><b>W</b></i><i style="height:74%"><b>T</b></i><i style="height:63%"><b>F</b></i><i style="height:88%"><b>S</b></i><i style="height:70%"><b>S</b></i></div></div></div></div></section>
+
+    <section class="section planner-section" id="planner"><div class="section-shell planner-layout"><div class="planner-intro"><span class="eyebrow">MAKE ROOM FOR THE GOAL</span><h2>A plan you can <em>actually follow.</em></h2><p>Turn the big syllabus into a few good decisions for today.</p><a class="arrow-link" href="pages/dashboard.html">Build your study plan <span>↗</span></a><div class="countdown"><span class="countdown-icon">◷</span><span><small>DEMO EXAM COUNTDOWN</small><strong id="countdown-days">199 days</strong></span></div></div><div class="planner-card"><div class="planner-head"><div><span class="eyebrow">TODAY'S PLAN</span><h3>Saturday, October 31</h3></div><button class="text-button" data-action="add-task">+ Add task</button></div><div id="planner-tasks" class="planner-tasks"></div><div class="planner-foot"><span id="planner-complete">0 of 4 complete</span><button class="text-button" data-action="reset-plan">Reset day</button></div></div></div></section>
+
+    <section class="section section-shell" id="leaderboard"><div class="section-heading reveal"><div><span class="eyebrow">A LITTLE FRIENDLY MOMENTUM</span><h2>Small wins, <em>shared.</em></h2></div><a class="arrow-link" href="#leaderboard">Full leaderboard <span>↗</span></a></div><div class="leaderboard-layout"><div class="leader-intro"><div class="leader-medal">✦</div><h3>Steady beats<br>spectacular.</h3><p>Sample learner rankings. Your name could be right here.</p><div class="leader-tabs"><button class="is-active" data-rank-period="week">This week</button><button data-rank-period="today">Today</button></div></div><div class="leader-table" id="leaderboard-table"></div></div></section>
+
+    <section class="section section-testimonials"><div class="section-shell"><div class="section-heading reveal"><div><span class="eyebrow">NOT JUST OUR WORD</span><h2>Progress, in their <em>own words.</em></h2></div><span class="sample-note">Illustrative student stories</span></div><div class="testimonial-grid"><article><div class="quote-stars">★★★★★</div><blockquote>“The small daily tests helped me spot the gaps I kept overlooking. I finally had a plan that felt manageable.”</blockquote><div class="quote-person"><span>PK</span><p><b>Priya K.</b><small>TNPSC aspirant · sample story</small></p></div></article><article><div class="quote-stars">★★★★★</div><blockquote>“I stopped collecting resources and started practicing. The explanations make revision so much more focused.”</blockquote><div class="quote-person"><span>AD</span><p><b>Arun D.</b><small>SSC aspirant · sample story</small></p></div></article><article><div class="quote-stars">★★★★★</div><blockquote>“Having a clear weekly target made the preparation feel less overwhelming. I can see the progress now.”</blockquote><div class="quote-person"><span>SM</span><p><b>Safiya M.</b><small>Banking aspirant · sample story</small></p></div></article></div></div></section>
+
+    <section class="section section-shell faq-section" id="faq"><div class="section-heading reveal"><div><span class="eyebrow">GOOD QUESTIONS, HONEST ANSWERS</span><h2>Before you <em>get started.</em></h2></div></div><div class="faq-list"><details><summary>Which examinations can I prepare for here?<span>+</span></summary><p>TNPSC_TAMILQUIZ brings together preparation paths for TNPSC, SSC, Railway and Banking examinations, with exam-focused practice and learning resources.</p></details><details><summary>Are the sample mock tests free?<span>+</span></summary><p>Some sample tests are marked free and can be attempted directly. Other test types are represented as previews in this demonstration frontend.</p></details><details><summary>Can I switch the interface to Tamil?<span>+</span></summary><p>Use the language switch in the top navigation to change supported interface labels. Study content includes bilingual examples where available.</p></details><details><summary>Are the job listings official?<span>+</span></summary><p>No. Job cards are clearly labelled sample data and link only to official organization homepages. Always confirm dates and eligibility in the official notification.</p></details><details><summary>Will my progress be saved?<span>+</span></summary><p>Demo preferences, quiz history, bookmarks and planner tasks are saved in this browser using local storage.</p></details></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="section-shell"><div class="footer-top"><div class="footer-brand"><a class="brand brand-inverse" href="#home"><span class="brand-mark">T</span><span>TNPSC_TAMILQUIZ</span></a><p>Good preparation changes what feels possible.</p></div><div class="footer-col"><b>Explore</b><a href="#exams">Exams</a><a href="#mock-tests">Mock tests</a><a href="#materials">Study materials</a><a href="#pyq">Previous papers</a></div><div class="footer-col"><b>Stay current</b><a href="#current-affairs">Current affairs</a><a href="#daily-quiz">Daily quiz</a><a href="#jobs">Latest jobs</a><a href="#videos">Video lessons</a></div><div class="footer-col"><b>Your account</b><a href="#dashboard">Student dashboard</a><a href="#planner">Study planner</a><a href="#leaderboard">Leaderboard</a><a href="#faq">Help & FAQ</a></div><div class="footer-note"><span class="eyebrow">A NOTE ON THIS DEMO</span><p>Learning content and opportunity listings shown here are sample data, not official announcements.</p></div></div><div class="footer-bottom"><span>© 2026 TNPSC_TAMILQUIZ. Built for the next step.</span><span>Made for learners across India <b>✳</b></span><a href="#home">Back to top ↑</a></div></div></footer>
+
+  <button class="floating-quiz" data-action="start-quiz" aria-label="Start daily quiz"><span>✳</span><b>Daily quiz</b></button>
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+  <div class="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <div class="modal-backdrop" id="modal-backdrop" hidden><section class="dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close dialog">×</button><div id="dialog-content"></div></section></div>
+</body>
+</html>
